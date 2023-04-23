@@ -11,10 +11,10 @@ const ptComponents = {
         return null
       }
       return (
-        <img
+        <Image
           alt={value.alt || ' '}
           loading="lazy"
-          src={urlForImage(value).width(320).height(240).fit('max').auto('format')}
+          src={urlForImage(value).url()}
         />
       )
     }
@@ -41,10 +41,9 @@ const Post = ({post}) => {
       )}
       {authorImage && (
         <div>
-          <img
-            src={urlForImage(authorImage)}
-          
-            alt={`${name}'s picture`}
+          <Image
+            src={urlForImage(authorImage).url()}
+          alt={`${name}'s picture`}
           />
         </div>
       )}

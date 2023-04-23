@@ -25,7 +25,7 @@ const Post = ({post}) => {
   const{title, categories, body, authorImage, name} = post
   return (
     <>
-    {post &&
+    {post &&(
     <article>
       <h1>{title}</h1>
       <span>By {name}</span>
@@ -40,6 +40,8 @@ const Post = ({post}) => {
           <Image
             src={urlForImage(authorImage).url()}
           alt={`${name}'s picture`}
+          width={90}
+          height={80}
           />
         </div>
       )}
@@ -47,7 +49,7 @@ const Post = ({post}) => {
         value={body}
         components={ptComponents}
       />
-    </article>}
+    </article>)}
     </>
   )
 }

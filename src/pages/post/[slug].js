@@ -22,13 +22,7 @@ const ptComponents = {
 }
 
 const Post = ({post}) => {
-  const {
-    title = '',
-    name = '',
-    categories = {},
-    authorImage = '',
-    body = []
-  } = post
+  const{title, categories, body, authorImage, name} = post
   return (
     <article>
       <h1>{title}</h1>

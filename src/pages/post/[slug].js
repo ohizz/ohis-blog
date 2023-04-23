@@ -23,11 +23,10 @@ const ptComponents = {
 
 const Post = ({post}) => {
   const {
-    title = 'Missing title',
-    name = 'Missing name',
+    name ,
     categories,
     authorImage,
-    body = []
+    body
   } = post
   return (
     <article>

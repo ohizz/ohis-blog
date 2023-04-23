@@ -23,8 +23,6 @@ const ptComponents = {
 }
 
 const Post = ({post}) => {
-
-  const{title, categories, body, authorImage, name} = post
   const router = useRouter()
 
   if (router.isFallback) {
@@ -35,13 +33,13 @@ const Post = ({post}) => {
     <article>
       <h1>{post.title}</h1>
       <span>By {post.name}</span>
-      {categories && (
+      {post.categories && (
         <ul>
           Posted in
           {post.categories.map(category => <li key={category}>{category}</li>)}
         </ul>
       )}
-      {authorImage && (
+      {post.authorImage && (
         <div>
           <Image
             src={urlForImage(post.authorImage).url()}

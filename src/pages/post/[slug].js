@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import groq from 'groq'
 import {PortableText} from '@portabletext/react'
 import { urlForImage } from "../../../lib/sanity"
@@ -22,10 +23,16 @@ const ptComponents = {
 }
 
 const Post = ({post}) => {
+
   const{title, categories, body, authorImage, name} = post
+  const router = useRouter()
+
+    if (router.isFallback) {
+        return <div>Loading...</div>
+    }
   return (
     <>
-    {post &&(
+    
     <article>
       <h1>{title}</h1>
       <span>By {name}</span>
@@ -49,7 +56,7 @@ const Post = ({post}) => {
         value={body}
         components={ptComponents}
       />
-    </article>)}
+    </article>
     </>
   )
 }

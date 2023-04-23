@@ -27,33 +27,32 @@ const Post = ({post}) => {
   const{title, categories, body, authorImage, name} = post
   const router = useRouter()
 
-    if (router.isFallback) {
-        return <div>Loading...</div>
-    }
+  if (router.isFallback) {
+      return <div>Loading...</div>
+  }
   return (
     <>
-    
     <article>
-      <h1>{title}</h1>
-      <span>By {name}</span>
+      <h1>{post.title}</h1>
+      <span>By {post.name}</span>
       {categories && (
         <ul>
           Posted in
-          {categories.map(category => <li key={category}>{category}</li>)}
+          {post.categories.map(category => <li key={category}>{category}</li>)}
         </ul>
       )}
       {authorImage && (
         <div>
           <Image
-            src={urlForImage(authorImage).url()}
-          alt={`${name}'s picture`}
+            src={urlForImage(post.authorImage).url()}
+          alt={`${post.name}'s picture`}
           width={90}
           height={80}
           />
         </div>
       )}
       <PortableText
-        value={body}
+        value={post.body}
         components={ptComponents}
       />
     </article>

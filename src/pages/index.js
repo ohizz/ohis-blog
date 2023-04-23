@@ -17,6 +17,7 @@ const Index = ({posts}) => {
                 <Image
                   height={90}
                   width={100}
+                  alt={title}
                   src={urlForImage(mainImage).url()} 
                     />
                 <Link href={`/post/${encodeURIComponent(slug.current)}`}>

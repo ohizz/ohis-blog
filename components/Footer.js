@@ -4,7 +4,7 @@ export const Footer = () => {
     let year = new Date().getFullYear();
 
  return(
-  <footer className="mt-10 text-slate-500 border-t border-slate-200 py-3 mt-4 max-w-4xl mx-auto">
+  <footer className="mt-10 text-slate-500 border-t border-slate-200 py-3 mt-4 max-w-4xl mx-auto font-body">
     <div className=" mx-6 md:flex md:justify-between">
     <div className="mb-4">
     <Link href="#" className="hover:underline">Home</Link>

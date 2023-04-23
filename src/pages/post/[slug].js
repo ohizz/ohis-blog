@@ -23,6 +23,7 @@ const ptComponents = {
 }
 
 const Post = ({post}) => {
+
   const router = useRouter()
 
   if (router.isFallback) {

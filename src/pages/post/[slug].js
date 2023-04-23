@@ -24,6 +24,8 @@ const ptComponents = {
 const Post = ({post}) => {
   const{title, categories, body, authorImage, name} = post
   return (
+    <>
+    {post &&
     <article>
       <h1>{title}</h1>
       <span>By {name}</span>
@@ -45,7 +47,8 @@ const Post = ({post}) => {
         value={body}
         components={ptComponents}
       />
-    </article>
+    </article>}
+    </>
   )
 }
 

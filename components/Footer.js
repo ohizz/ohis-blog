@@ -8,7 +8,7 @@ export const Footer = () => {
     <div className=" mx-6 flex flex-col md:flex-row md:justify-between">
     <ul className="mb-4 flex flex-col gap-2 md:flex-row">
     <Link href="/" className="hover:underline">Home</Link>
-    <Link href="post/blog" className="md:mx-4 hover:underline">Blog</Link>
+    <Link href="/blog" className="md:mx-4 hover:underline">Blog</Link>
     <Link href="#" className="md:mr-4 hover:underline">Projects</Link>
     <Link href="#" className= "hover:underline">CV</Link>
    </ul>

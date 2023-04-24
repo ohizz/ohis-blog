@@ -4,6 +4,8 @@ import groq from 'groq'
 import {PortableText} from '@portabletext/react'
 import { urlForImage } from "../../../lib/sanity"
 import { getClient } from "../../../lib/sanity.server"
+import { Header } from '../../../components/Header'
+import { Footer } from '../../../components/Footer'
 
 const ptComponents = {
   types: {
@@ -31,12 +33,12 @@ const Post = ({post}) => {
   }
   return (
     <>
-    <article>
-      <h1>{post.title}</h1>
-      <span>By {post.name}</span>
+    <Header/>
+    <article className='max-w-2xl mx-6 md:mx-auto font-body'>
+      <h1 className='text-6xl border-b py-4 border-slate-200'>{post.title}</h1>
+      <span className='block my-4'>By {post.name}</span>
       {post.categories && (
-        <ul>
-          Posted in
+        <ul className='border border-slate-300 p-1 px-2 w-fit rounded'>
           {post.categories.map(category => <li key={category}>{category}</li>)}
         </ul>
       )}
@@ -53,8 +55,10 @@ const Post = ({post}) => {
       <PortableText
         value={post.body}
         components={ptComponents}
+    
       />
     </article>
+    <Footer/>
     </>
   )
 }

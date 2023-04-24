@@ -7,8 +7,8 @@ export const Footer = () => {
   <footer className="mt-10 text-slate-500 border-t border-slate-200 py-3 mt-4 max-w-4xl mx-auto font-body">
     <div className=" mx-6 flex flex-col md:flex-row md:justify-between">
     <ul className="mb-4 flex flex-col gap-2 md:flex-row">
-    <Link href="#" className="hover:underline">Home</Link>
-    <Link href="#" className="md:mx-4 hover:underline">Blog</Link>
+    <Link href="/" className="hover:underline">Home</Link>
+    <Link href="post/blog" className="md:mx-4 hover:underline">Blog</Link>
     <Link href="#" className="md:mr-4 hover:underline">Projects</Link>
     <Link href="#" className= "hover:underline">CV</Link>
    </ul>

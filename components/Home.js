@@ -8,7 +8,7 @@ export const Home = () => {
   <>
    <main>
     <Header/>
-    <div className='font-body mb-4 px-10 text-base'>
+    <div className='font-body mb-4 px-8 text-base'>
         <div className='max-w-4xl mx-auto'>
        
         <h1 className="font-bold text-3xl mb-4">Hello there.</h1>

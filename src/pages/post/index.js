@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import groq from 'groq'
-import { getClient } from "../../lib/sanity.server"
-import { urlForImage } from '../../lib/sanity'
-import { Header } from '../../components/Header'
-import { Footer } from '../../components/Footer'
+import { getClient } from '../../../lib/sanity.server'
+import { urlForImage } from '../../../lib/sanity'
+import { Header } from '../../../components/Header'
+import { Footer } from '../../../components/Footer'
 
 export const Blog = ({posts}) => {
     return (

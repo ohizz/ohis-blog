@@ -1,7 +1,7 @@
 import Link from 'next/link'
 export const Header = () => {
  return(
-    <div className='sticky top-0 z-30 w-full md:relative backdrop-blur-sm bg-white/30 border-b border-slate-200 py-3 mb-4 px-6 mx-auto font-body'>
+    <div className='sticky top-0 z-30 w-full md:relative backdrop-blur-sm bg-white/80 border-b border-slate-200 py-3 mb-4 px-6 mx-auto font-body'>
         <div className='md:max-w-4xl mx-auto flex justify-between items-center'>
         <Link href="#"><h1 className='text-2xl md:text-4xl font-bold text-black-500'>OHIS</h1></Link>
         <div className='text-sm lg:text-lg text-slate-700 flex gap-3 md:gap-10'>

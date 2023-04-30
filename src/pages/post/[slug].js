@@ -35,7 +35,7 @@ const Post = ({post}) => {
     <>
     <Header/>
     <article className='max-w-2xl mx-6 md:mx-auto font-body'>
-      <h1 className='text-6xl border-b py-4 border-slate-200'>{post.title}</h1>
+      <h1 className='text-3xl md:text-6xl font-semibold border-b py-4 border-slate-200'>{post.title}</h1>
       <span className='block my-4'>By {post.name}</span>
       <div className='flex items-center mb-6'>
       {post.categories && (

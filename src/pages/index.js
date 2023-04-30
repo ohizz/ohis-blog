@@ -1,6 +1,7 @@
 import { Home } from '../../components/Home'
 
-const Index = ({posts}) => {
+
+const Index = () => { 
     return (
       <div>
         <Home/>

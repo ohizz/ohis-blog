@@ -33,11 +33,8 @@ export const Header = () => {
         <div className='max-w-screen-xl mx-auto flex justify-between items-center'>
         <Link href="/"><h1 className='text-2xl md:text-4xl font-bold text-black-500'>OHIS</h1></Link>
         <div className='text-sm lg:text-lg flex items-center justify-center gap-3 md:gap-10'>
-      <Link href="/" className='hidden md:block hover:underline'><svg xmlns="http://www.w3.org/2000/svg" className='w-6 inline' fill="currentColor" class="bi bi-house-door" viewBox="0 0 20 20">
-  <path troke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
-</svg>Home</Link>
-        <Link href="/post" className='hidden md:block hover:underline '><svg className='w-6 inline'fill="none" viewBox="0 0 24 24" astro-icon="notebook"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.25 18.25h-8.5a2 2 0 0 1-2-2v-9.5a2 2 0 0 1 2-2h8.5a2 2 0 0 1 2 2v9.5a2 2 0 0 1-2 2ZM14.25 8.75h-.5M14.25 11.75h-.5M9.75 4.75v14.5"></path></svg>Blog</Link>
-        <Link href="/project" className='hidden md:block hover:underline'><svg className='w-6 inline' fill="none" viewBox="0 0 24 24" astro-icon="multiple-folders"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 10.75v6.5a2 2 0 0 0 2 2h7.5a2 2 0 0 0 2-2v-4.5a2 2 0 0 0-2-2h-9.5Zm0 0v-1a2 2 0 0 1 2-2h3.063a2 2 0 0 1 1.755 1.042l1.073 1.958m-4.891-3v-1a2 2 0 0 1 2-2h3.063a2 2 0 0 1 1.755 1.042l1.073 1.958h1.609a2 2 0 0 1 2 2v4.5a2 2 0 0 1-2 2h-1"></path></svg>Project</Link>
+        <Link href="/post" className='hidden md:block hover:underline '>Blog</Link>
+        <Link href="/project" className='hidden md:block hover:underline'>Project</Link>
         {renderThemeChanger()}
         </div>
     </div>

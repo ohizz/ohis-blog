@@ -12,12 +12,12 @@ export const Static = ()=> {
     if (data) <h1>Loading...</h1>;
       let year = new Date().getFullYear();
     return(
-         <div className=' md:block md:w-2/5 lg:w-2/5'>
+         <div className='md:w-2/5 lg:w-2/5'>
         <h1 className="font-bold text-3xl mb-4">Hello there.</h1>
         <p>I’m <span className="font-bold">ohis</span> I am a software engineer. I love building polished web user interfaces with frontend technology.I am interested in user experience, accessibility and design system</p>
         <p className='my-4'>As well as coding and designing, you can find me binging tv shows, eating and occasionally rambling on Twitter.</p>
         <p className="p-3 mb-3 rounded bg-gray-100 text-slate-800 shadow-sm shadow-slate-100 w-fit md:w-auto">I am currently open for opportunities.</p>
-        <footer className=" py-4 mt-5 text-slate-500 font-body">
+        <footer className="hidden md:block py-4 mt-5 text-slate-500 font-body">
         <div className="hidden md:block">
         <ul className="mb-4 flex gap-3 items-center flex-wrap flex-row">
        
@@ -29,7 +29,7 @@ export const Static = ()=> {
   <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
 </svg></Link>
     <Link href="https://twitter.com/oissamuel" target="_blank" className='hover:border text-blue-500 border-slate-200 hover:m-0 rounded'><svg className='w-6 inline' fill="none" viewBox="0 0 24 24" astro-icon="twitter"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.31 18.25c5.472 0 8.464-4.81 8.464-8.98 0-.233.166-.44.378-.536.728-.33 1.673-1.235.697-2.756-.646.348-1.177.538-1.889.766-1.126-1.27-3.01-1.331-4.209-.136-.772.77-1.1 1.919-.86 3.015-2.392-.127-5.193-1.887-6.704-3.86-.789 1.443-.386 3.288.921 4.215a2.828 2.828 0 0 1-1.35-.395v.04c0 1.503.999 2.796 2.386 3.094a2.8 2.8 0 0 1-1.343.054c.39 1.285 2.079 2.728 3.352 2.753a5.758 5.758 0 0 1-3.695 1.354c-.237 0-.473-.015-.708-.045a8.073 8.073 0 0 0 4.56 1.415v.002Z"></path></svg></Link>
-    <p className="text-sm text- flex items-center gap-1">© {year}ohis samuel</p>
+    <p className="text-sm flex items-center gap-1 font-thin">copyright © {year}Ohis Samuel</p>
    </ul>
     </div>
     <div className="hidden md:block">

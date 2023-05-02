@@ -20,7 +20,7 @@ export const Projects = () => {
     <div className='md:w-2/5 lg:w-2/5 flex gap-2 flex-wrap mb-3'>
         <div className='w-full'>
         <div className=' flex flex-col m-0 list-none border border-slate-200 p-6'>
-         <Link href='https://ecommerce-ohizz.vercel.app' className='tracking-tighter font-semibold text-2xl '>E commerce store</Link>
+         <p className='tracking-tighter font-semibold text-2xl '>E commerce store</p>
                 <span className='mt-2 block text-xs tracking-wider'>REACTJS + CONTENXT API + NODEJS + MONGO DB</span>
                 <p className='text-md text-netural-600 my-4'>online shopping for everything sneakers</p>
                 <div className="flex items-center gap-3">
@@ -77,7 +77,7 @@ export const Projects = () => {
         </div>
        </div>
  </main>
-      <Footer/>
+      
       </>
 )}
 

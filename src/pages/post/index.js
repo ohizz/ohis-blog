@@ -45,7 +45,6 @@ export const Blog = ({posts}) => {
         )}
         </ul>
         </div>
-      <Footer/>
       </>
     )
 }

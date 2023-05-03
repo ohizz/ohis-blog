@@ -14,7 +14,7 @@ export const Footer = () => {
  return(
 
   <footer className="font-body flex flex-col md:flex-wrap mx-5">
-    <div className=" flex flex-col gap-6 items-center md:flex-row md:justify-between">
+    <div className=" flex flex-col gap-6 md:items-center md:flex-row md:justify-between">
     <ul className="mb-4 flex flex-row flex-wrap gap-4 tracking-tighter">
       <div>
       <p className="font-bold">ohis samuel</p>

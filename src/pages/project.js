@@ -1,24 +1,16 @@
 import Link from 'next/link'
 import { Header } from '../../components/Header'
 import { Footer } from '../../components/Footer'
-import { Static } from '../../components/static'
 
 export const Projects = () => {
     return (
       <>
        <main>
    <Header/>
-    <div className=' max-w-8xl mx-6 flex-wrap  flex-row md:flex md:gap-20 md:justify-center md:item-center md:mx-auto font-body'>
-    <Static/>
-    <div className='hidden md:w-2/5 lg:w-2/5'>
-        <h1 className="font-bold text-3xl mb-4">Hello there.</h1>
-        <p>I’m <span className="font-bold">ohis</span> I am a software engineer. I love building polished web user interfaces with frontend technology.I am interested in user experience, accessibility and design system</p>
-        <p className='my-4'>As well as coding and designing, you can find me binging tv shows, eating and occasionally rambling on Twitter.</p>
-        <p className="p-3 mb-3 rounded bg-gray-100 text-slate-800 shadow-sm shadow-slate-100 w-fit md:w-auto">I am currently open for opportunities.</p>
-        </div>
+    {/* <div className=' max-w-8xl mx-6 flex-wrap  flex-row md:flex md:gap-20 md:justify-center md:item-center md:mx-auto font-body'> */}
 
-    <div className='md:w-2/5 lg:w-2/5 flex gap-2 flex-wrap mb-3'>
-        <div className='w-full'>
+    {/* <div className='md:w-2/5 lg:w-2/5 flex gap-2 flex-wrap mb-3'> */}
+        {/* <div className='w-full'>
         <div className=' flex flex-col m-0 list-none border border-slate-200 p-6'>
          <p className='tracking-tighter font-semibold text-2xl '>E commerce store</p>
                 <span className='mt-2 block text-xs tracking-wider'>REACTJS + CONTENXT API + NODEJS + MONGO DB</span>
@@ -73,9 +65,11 @@ export const Projects = () => {
                 </Link>
                 </div>
             </div>
-        </div>
-        </div>
-       </div>
+        </div> */}
+        {/* </div> */}
+       {/* </div> */}
+
+       <p className='text-6xl tracking-tighter'>ecommerce</p>
  </main>
       
       </>

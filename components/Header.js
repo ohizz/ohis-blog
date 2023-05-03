@@ -29,16 +29,12 @@ export const Header = () => {
     }
  };
  return(
-    <div className='sticky top-0 z-30 w-full md:relative backdrop-blur-sm bg-white-900 border-b border-slate-200 py-3 mb-4 px-6 mx-auto font-body'>
-        <div className='max-w-screen-xl mx-auto flex justify-between items-center'>
-        <Link href="/"><h1 className='text-2xl md:text-4xl font-bold text-black-500'>OHIS</h1></Link>
-        <div className='text-sm lg:text-lg flex items-center justify-center gap-3 md:gap-10'>
-        <Link href="/post" className='hidden md:block hover:underline '>Blog</Link>
-        <Link href="/project" className='hidden md:block hover:underline'>Project</Link>
-        {renderThemeChanger()}
-        </div>
-    </div>
-    
+    <div className='font-body  tracking-tight py-3 mb-4 px-6 mx-auto font-body'>
+      <h1 className='md:hidden text-8xl font-bold tracking-tighter text-right leading-snug'>os.</h1>
+      <h1 className="text-3xl mb-4">Hello there.</h1>
+        <p>I’m <span className="font-bold">ohis</span> I am a software engineer. I love building polished web user interfaces with frontend technology.I am interested in user experience, accessibility and design system</p>
+        <p className='my-4'>As well as coding and designing, you can find me binging tv shows, eating and occasionally rambling on Twitter.</p>
+        <p className="p-3 mb-1 rounded bg-gray-100 text-slate-800 shadow-sm shadow-slate-100 md:w-auto">I am currently open for opportunities.</p>
     </div>
  )
 }

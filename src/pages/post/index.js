@@ -5,14 +5,14 @@ import { getClient } from '../../../lib/sanity.server'
 import { urlForImage } from '../../../lib/sanity'
 import { Header } from '../../../components/Header'
 import { Footer } from '../../../components/Footer'
-import { Static } from '../../../components/static'
+
 
 export const Blog = ({posts}) => {
     return (
       <>
         <Header/>
         <div className=' max-w-8xl mx-6 flex-wrap  flex-row md:flex md:gap-20 md:justify-center md:item-center md:mx-auto font-body'>
-        <Static/>
+   
         <div className='hidden md:w-2/5 lg:w-2/5'>
         <h1 className="font-bold text-3xl mb-4">Hello there.</h1>
         <p>I’m <span className="font-bold">ohis</span> I am a software engineer. I love building polished web user interfaces with frontend technology.I am interested in user experience, accessibility and design system</p>

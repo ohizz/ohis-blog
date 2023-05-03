@@ -13,18 +13,25 @@ export const Footer = () => {
 
  return(
 
-  <footer className="md:hidden max-w-4xl  py-5 flex flex-col md:flex-wrap mt-10 border-t border-slate-200 font-body">
-    <div className=" flex flex-col items-start gap-6 md:flex-row md:justify-between">
-    <ul className="mb-4 flex flex-row flex-wrap gap-2">
-    <Link href="/" className="hover:underline">Home</Link>
+  <footer className="font-body flex flex-col md:flex-wrap mx-5">
+    <div className=" flex flex-col gap-6 items-center md:flex-row md:justify-between">
+    <ul className="mb-4 flex flex-row flex-wrap gap-4 tracking-tighter">
+      <div>
+      <p className="font-bold">ohis samuel</p>
+      <p> Lagos, Nigeria</p>
+      </div>
+      <div className="flex gap-1">
+      <Link href="/" className="hover:underline">Home</Link>
     <Link href="/post" className="md:mx-4 hover:underline">Blog</Link>
     <Link href="/project" className="md:mr-4 hover:underline">Projects</Link>
    <Link href="https://twitter.com/oissamuel" className="hover:underline">Twitter</Link>
     <Link href="#" className="md:mx-4">Github</Link>
     <Link href="#" className="hover:underline">Instagram</Link>
+      </div>
    </ul>
+   <h1 className="hidden md:block text-8xl font-bold tracking-tighter">os</h1>
     </div>
-   <p className="text-sm  text-left mr-5 font-thin">copyright © {year} Ohis Samuel</p>
+   <p className="text-xs">copyright © {year} Ohis Samuel</p>
    
    <div className="flex gap-3 items-center border border-slate-200 p-3 rounded mt-3 md:w-1/2"> 
     <svg className="fill-current text-green-500 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16">

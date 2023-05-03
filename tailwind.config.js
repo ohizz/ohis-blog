@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        'fluid': 'repeat(3, minmax(4rem, 8rem))',
+        'fluid': 'repeat(3, minmax(2rem, 5rem))',
       },
       fontFamily: {
         body: ['Montserrat', defaultTheme.fontFamily.sans],

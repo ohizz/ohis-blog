@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        'fluid': 'repeat(3, minmax(4rem, 8rem))',
+      },
       fontFamily: {
         body: ['Montserrat', defaultTheme.fontFamily.sans],
         head:['Bruno Ace', defaultTheme.fontFamily.serif],

@@ -8,7 +8,7 @@ export const Projects = () => {
       <main className=" py-8 font-body flex flex-col mx-3 md:mx-16  justify-center min-h-screen-[100vh]">
     <Header/>
     <div>
-      <h1 className='font-ear text-left tracking-tighter underline text-4xl mt-4'>Projects</h1>
+      <h1 className='font-ear text-left tracking-tighter underline text-xl '>Projects</h1>
     <div className='mt-2 flex'>
     <Link href='#' className='tracking-tighter text-2xl md:text-4xl'>kicks</Link>
     <span>2023↗</span>
@@ -23,8 +23,8 @@ export const Projects = () => {
   </div>
     </div>
 
-<div className='text-sm text-right'>
-  <h3 className='font-semibold'>stack</h3>
+<div className='text-xs flex flex-col gap-2 font-lighter text-right'>
+  <h3 className='font-semibold text-sm'>stack</h3>
   <p>javascript</p>
   <p>typescript</p>
   <p>react.js</p>

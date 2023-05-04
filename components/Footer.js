@@ -12,16 +12,16 @@ export const Footer = () => {
     let year = new Date().getFullYear();
 
  return(
-  <footer className="bg-gray-20 font-body flex flex-col md:flex-wrap w-full h-26 
+  <footer className="bg-gray-50/50 font-body flex flex-col md:flex-wrap w-full h-26 
   fixed left-0 bottom-0 z-index-99
   text-slate-900 px-4 md:px-16 pb-6">
     <div className=" flex flex-col gap-6 md:items-center md:flex-row md:justify-between">
-    <ul className="mb-4 flex gap-4 tracking-normal">
+    <ul className="mb-4 md:flex gap-4 tracking-normal">
       <div className="hidden md:grid gap-4">
       <p className="font-bold">ohis samuel</p>
       <p> Lagos, Nigeria</p>
       </div>
-      <div className="grid grid-cols-fluid font-lighter">
+      <div className="grid grid-cols-fluid  font-lighter">
       <Link href="/" className="hover:underline">Home</Link>
     <Link href="/post" className=" hover:underline">Blog</Link>
     <Link href="/project" className=" hover:underline">Projects</Link>

@@ -12,6 +12,10 @@ module.exports = {
       gridTemplateColumns: {
         'fluid': 'repeat(3, minmax(2rem, 5rem))',
       },
+      letterSpacing: {
+        tightest: '-8px',
+        tighter: '-3px',
+        normal: '-2px'},
       fontFamily: {
         body: ['Montserrat', defaultTheme.fontFamily.sans],
         head:['Bruno Ace', defaultTheme.fontFamily.serif],

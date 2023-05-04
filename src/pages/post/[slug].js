@@ -4,7 +4,7 @@ import groq from 'groq'
 import {PortableText} from '@portabletext/react'
 import { urlForImage } from "../../../lib/sanity"
 import { getClient } from "../../../lib/sanity.server"
-import { Header } from '../../../components/Header'
+import { Header } from '../../../components/IndexBody'
 import { Footer } from '../../../components/Footer'
 
 const ptComponents = {

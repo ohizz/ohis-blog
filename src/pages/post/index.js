@@ -3,7 +3,7 @@ import Image from 'next/image'
 import groq from 'groq'
 import { getClient } from '../../../lib/sanity.server'
 import { urlForImage } from '../../../lib/sanity'
-import { Header } from '../../../components/Header'
+import { Header } from '../../../components/IndexBody'
 import { Footer } from '../../../components/Footer'
 
 

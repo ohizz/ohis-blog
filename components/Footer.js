@@ -15,7 +15,7 @@ export const Footer = () => {
 
   <footer className="font-body flex flex-col md:flex-wrap">
     <div className=" flex flex-col gap-6 md:items-center md:flex-row md:justify-between">
-    <ul className="mb-4 flex  gap-4 tracking-tighter">
+    <ul className="mb-4 flex  gap-4 tracking-normal">
       <div className="hidden md:grid gap-4">
       <p className="font-bold">ohis samuel</p>
       <p> Lagos, Nigeria</p>

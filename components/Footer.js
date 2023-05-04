@@ -13,7 +13,7 @@ export const Footer = () => {
 
  return(
 
-  <footer className="font-body flex flex-col md:flex-wrap mx-5">
+  <footer className="font-body flex flex-col md:flex-wrap">
     <div className=" flex flex-col gap-6 md:items-center md:flex-row md:justify-between">
     <ul className="mb-4 flex  gap-4 tracking-tighter">
       <div className="hidden md:grid gap-4">

@@ -4,7 +4,7 @@ import groq from 'groq'
 import {PortableText} from '@portabletext/react'
 import { urlForImage } from "../../../lib/sanity"
 import { getClient } from "../../../lib/sanity.server"
-import { Header } from '../../../components/IndexBody'
+import { IndexBody } from '../../../components/IndexBody'
 import { Footer } from '../../../components/Footer'
 
 const ptComponents = {
@@ -33,7 +33,7 @@ const Post = ({post}) => {
   }
   return (
     <>
-    <Header/>
+    <IndexBody/>
     <article className='max-w-2xl mx-6 md:mx-auto font-body'>
       <h1 className='text-3xl md:text-6xl font-semibold border-b py-4 border-slate-200'>{post.title}</h1>
       <span className='block my-4'>By {post.name}</span>

@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        'fluid': 'repeat(3, minmax(2rem, 5rem))',
+        'fluid': 'repeat(3, minmax(1rem, 5rem))',
       },
       letterSpacing: {
         tightest: '-8px',

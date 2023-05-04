@@ -30,13 +30,9 @@ export const IndexBody = () => {
     }
  };
  return(
-    <div className='font-body tracking-tight py-3 mb-4 px-6 mx-auto font-body'>
-      <Header/>
-      <h1 className="text-3xl mb-4">Hello there.</h1>
-        <p className='leading-7'>I’m <span className="font-bold">ohis</span> I am a software engineer. I love building polished web user interfaces with frontend technology.I am interested in user experience, accessibility and design system</p>
-        <p className='my-4 leading-7'>As well as coding and designing, you can find me binging tv shows, eating and occasionally rambling on Twitter.</p>
-        <p className="p-3 mb-1 rounded bg-gray-100 text-slate-800 shadow-sm shadow-slate-100 md:w-auto">I am currently open for opportunities.</p>
-        <Footer/>
-    </div>
+  <>
+   <Header/>
+  <Footer/>
+  </>
  )
 }

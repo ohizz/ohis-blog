@@ -12,16 +12,16 @@ export const Footer = () => {
     let year = new Date().getFullYear();
 
  return(
-  <footer className="font-body flex flex-col md:flex-wrap w-full h-26 
+  <footer className="bg-gray-20 font-body flex flex-col md:flex-wrap w-full h-26 
   fixed left-0 bottom-0 z-index-99
-  text-slate-900 px-10 pb-6">
+  text-slate-900 px-16 pb-6">
     <div className=" flex flex-col gap-6 md:items-center md:flex-row md:justify-between">
     <ul className="mb-4 flex gap-4 tracking-normal">
       <div className="hidden md:grid gap-4">
       <p className="font-bold">ohis samuel</p>
       <p> Lagos, Nigeria</p>
       </div>
-      <div className="grid grid-cols-fluid ">
+      <div className="grid grid-cols-fluid font-lighter">
       <Link href="/" className="hover:underline">Home</Link>
     <Link href="/post" className=" hover:underline">Blog</Link>
     <Link href="/project" className=" hover:underline">Projects</Link>
@@ -30,7 +30,7 @@ export const Footer = () => {
     <Link href="#" className="hover:underline">Instagram</Link>
       </div>
    </ul>
-   <h1 className="hidden md:block text-8xl font-bold tracking-tighter">os</h1>
+   <h1 className="font-ear hidden md:block text-8xl font-bold tracking-tightest text-zinc-900">os.</h1>
     </div>
    <p className="text-xs">copyright © {year} Ohis Samuel. All right reserved.</p>
    

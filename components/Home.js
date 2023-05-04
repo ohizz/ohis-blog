@@ -4,7 +4,7 @@ import { Header } from "./Header"
 export const Home = () => {
  return(
  <>
-  <main className="pt-4 font-body flex flex-col mx-3 md:mx-16 justify-center min-h-screen-[100vh]">
+  <main className="pt-4 font-body flex flex-col mx-4 md:mx-16 justify-center min-h-screen-[100vh]">
     <Header/>
 
   <h1 className="text-3xl font-lighter leading-1 mb-4">Connoisseur of everything with an interface.</h1>

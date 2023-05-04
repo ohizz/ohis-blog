@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { useTheme } from 'next-themes'
 import { Footer } from './Footer';
 import { Header } from './Header';

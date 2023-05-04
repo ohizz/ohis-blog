@@ -3,14 +3,14 @@ import Image from 'next/image'
 import groq from 'groq'
 import { getClient } from '../../../lib/sanity.server'
 import { urlForImage } from '../../../lib/sanity'
-import { Header } from '../../../components/IndexBody'
+import { IndexBody } from '../../../components/IndexBody'
 import { Footer } from '../../../components/Footer'
 
 
 export const Blog = ({posts}) => {
     return (
       <>
-        <Header/>
+        <IndexBody/>
         <div className=' max-w-8xl mx-6 flex-wrap  flex-row md:flex md:gap-20 md:justify-center md:item-center md:mx-auto font-body'>
    
         <div className='hidden md:w-2/5 lg:w-2/5'>

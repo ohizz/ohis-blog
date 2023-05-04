@@ -5,7 +5,7 @@ import { Footer } from '../../components/Footer'
 export const Projects = () => {
     return (
       <div className='bg-gray-20'>
-      <main className=" py-8 font-body flex flex-col mx-16 justify-center min-h-screen-[100vh]">
+      <main className=" py-8 font-body flex flex-col mx-3 md:mx-16  justify-center min-h-screen-[100vh]">
     <Header/>
     <div>
     <div>

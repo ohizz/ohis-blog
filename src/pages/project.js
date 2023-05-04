@@ -8,19 +8,23 @@ export const Projects = () => {
       <main className=" py-8 font-body flex flex-col mx-3 md:mx-16  justify-center min-h-screen-[100vh]">
     <Header/>
     <div>
-    <div>
-    <Link href='#' className='tracking-tightest text-6xl'>kicks</Link>
+      <h1 className='font-ear text-left tracking-tighter underline text-4xl mt-4'>Projects</h1>
+    <div className='mt-2 flex'>
+    <Link href='#' className='tracking-tighter text-2xl md:text-4xl'>kicks</Link>
+    <span>2023↗</span>
   </div>
-  <div>
-    <Link href='#' className='tracking-tightest text-6xl'>budget tracker</Link>
+  <div className='flex'>
+    <Link href='#' className='tracking-tighter text-2xl md:text-4xl'>budget tracker</Link>
+    <span>2022↗</span>
   </div>
-  <div>
-    <Link href='#' className='tracking-tightest text-6xl'>todo</Link>
+  <div className='flex'>
+    <Link href='#' className='tracking-tighter text-2xl md:text-4xl'>todo</Link>
+    <span>2022↗</span>
   </div>
     </div>
 
 <div className='text-sm text-right'>
-  <h3 className='font-lighter'>stack</h3>
+  <h3 className='font-semibold'>stack</h3>
   <p>javascript</p>
   <p>typescript</p>
   <p>react.js</p>

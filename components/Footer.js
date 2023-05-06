@@ -12,7 +12,7 @@ export const Footer = () => {
     let year = new Date().getFullYear();
 
  return(
-  <footer className="max-w-4xl my-2  mx-2 md:mx-auto font-body">
+  <footer className="max-w-4xl my-6 mx-4 md:mx-auto font-body">
     <div className="flex justify-between items-center">
     <ul className="mb-4 flex gap-1 md:gap-4 items-center tracking-normal">
       <div className="mr-8">

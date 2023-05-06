@@ -14,8 +14,8 @@ export const Footer = () => {
  return(
   <footer className="max-w-4xl my-6 mx-4 md:mx-auto font-body">
     <div className="flex justify-between items-center">
-    <ul className="mb-4 flex gap-1 md:gap-4 items-center tracking-normal">
-      <div className="mr-8">
+    <ul className="mb-4 flex text-sm justify-between gap-8 items-center tracking-tight">
+      <div className="">
       <p className="font-bold">ohis samuel</p>
       <p> Lagos, Nigeria</p>
       </div>
@@ -30,7 +30,7 @@ export const Footer = () => {
    </ul>
    <h1 className="font-ear hidden md:block text-8xl font-bold tracking-tightest text-zinc-900">os.</h1>
     </div>
-   <p className="text-xs">copyright © {year} Ohis Samuel. All right reserved.</p>
+   <p className="text-xs"> © {year} Ohis Samuel. All right reserved.</p>
    
    {/* <div className="flex gap-3 items-center border border-slate-200 p-3 rounded mt-3 md:w-1/2"> 
     <svg className="fill-current text-green-500 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16">

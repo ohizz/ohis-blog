@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       gridTemplateColumns: {
         'fluid': 'repeat(3, minmax(80px, 1fr))',
+        'two': '12fr 3fr',
       },
       letterSpacing: {
         tightest: '-8px',

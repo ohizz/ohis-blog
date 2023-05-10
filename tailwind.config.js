@@ -9,9 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      gridTemplateColumns: {
-        'fluid': 'repeat(3, minmax(80px, 1fr))',
-        'two': '12fr 3fr',
+      flex: {
+        '2': '2 2 0%',
+        '5': '5 5 0%'
       },
       letterSpacing: {
         tightest: '-8px',

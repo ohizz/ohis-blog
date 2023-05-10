@@ -6,8 +6,8 @@ export const Home = () => {
  
   return(
  <>
+  <Header/>
   <main className=" font-body flex flex-col mx-4 md:mx-16 justify-center min-h-[70vh]">
-    <Header/>
 
   <h1 className="text-3xl mt-6 md:mt-10 font-semibold tracking-tight leading-1 mb-4">Hello there.</h1>
   <p className="text-sm leading-6 md:text-md tracking-tight md:leading-7">Hi I m a frontend developer. My focus is on building dynamic and interactive websites that provide engaging user experiences.</p>

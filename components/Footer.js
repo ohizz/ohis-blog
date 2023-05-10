@@ -20,15 +20,15 @@ export const Footer = () => {
       <p> Lagos, Nigeria</p>
       </div>
       <div className="flex items-center flex-wrap gap-4 items-center">
-      {/* <Link href="/" className="hover:underline">Home</Link> */}
+      <Link href="/" className="hover:underline">Home</Link>
     {/* <Link href="/post" className=" hover:underline">Blog</Link> */}
-    {/* <Link href="/project" className=" hover:underline">Projects</Link> */}
+    <Link href="/projects" className=" hover:underline">Projects</Link>
    <Link href="https://twitter.com/oissamuel" className="hover:underline">Twitter</Link>
     <Link href="#" className="">Github</Link>
     {/* <Link href="#" className="hover:underline">Instagram</Link> */}
       </div>
    </ul>
-   <h1 className="font-ear hidden md:block text-8xl font-bold tracking-tightest text-zinc-900">os.</h1>
+   {/* <h1 className="font-ear hidden md:block text-8xl font-bold tracking-tightest text-zinc-900">os.</h1> */}
     </div>
    <p className="text-xs"> © {year} Ohis Samuel. All right reserved.</p>
    

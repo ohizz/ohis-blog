@@ -14,7 +14,7 @@ export const Footer = () => {
  return(
   <footer className=" mx-4 md:mx-16 font-head">
     <div className="flex justify-start items-center">
-    <ul className="mb-4 flex text-xs flex-col gap-2 tracking-tight">
+    <ul className="mb-4 flex text-xs gap-2 tracking-tight">
    <Link href="https://twitter.com/oissamuel" className="hover:underline">twitter</Link>
     <Link href="https://github.com/ohizz" className="">github</Link>
     <Link href="#" className="">email</Link>

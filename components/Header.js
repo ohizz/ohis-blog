@@ -10,7 +10,7 @@ export const Header = () => {
    if (error) <p>Loading failed...</p>;
    if (data) <h1>Loading...</h1>;
  return(
-   <div className="flex justify-between items-center max-w-4xl mx-4 md:mx-auto">
+   <div className="flex justify-between items-center max-w-4xl pt-5 mx-4 md:mx-auto">
 <h1 className=' font-ear text-3xl md:text-8xl font-bold  tracking-tighter leading-3 
      '>os.</h1>
     <div className="flex gap-3 items-center border border-slate-200 p-3 rounded mt-3 md:w-1/2"> 

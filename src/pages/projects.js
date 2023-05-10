@@ -5,7 +5,7 @@ const Projects = () => {
  return(
     <div className='bg-gradient-to-t from-slate-100/50 from-50% to-slate-100 to-50%'>
      <Header/>
-    <main className="pt-4 font-body justify-center items-center flex flex-col mx-4  justify-center min-h-[67vh]">
+    <main className="pt-4 font-body justify-center items-center flex flex-col mx-4  justify-center min-h-[60vh]">
     <div className="flex flex-col flex-wrap">
     <Link href="#" className="hover:border hover:bg-slate-200 hover:p-2 rounded">
         <div className="flex justify-center gap-4 md:gap-60 items-center">

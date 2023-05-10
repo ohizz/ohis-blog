@@ -25,6 +25,8 @@ module.exports = {
         eye:['Inter Tiger', defaultTheme.fontFamily.serif],
         ear:['Sora', defaultTheme.fontFamily.sans],
        },
+       fontSize: {
+        ds: '0.6rem',}
     },
   },
   plugins: [],

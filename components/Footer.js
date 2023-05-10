@@ -16,11 +16,11 @@ export const Footer = () => {
     <div className="flex justify-start items-center">
     <ul className="mb-4 flex text-sm flex-col gap-2 tracking-tight">
    <Link href="https://twitter.com/oissamuel" className="hover:underline">twitter</Link>
-    <Link href="#" className="">github</Link>
+    <Link href="https://github.com/ohizz" className="">github</Link>
     <Link href="#" className="">email</Link>
    </ul>
     </div>
-   <p className="text-xs"> © {year} Ohis Samuel. All right reserved.</p>
+   <p className="text-ds"> © {year} Ohis Samuel. All right reserved.</p>
   
   </footer>
 

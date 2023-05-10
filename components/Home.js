@@ -33,14 +33,14 @@ export const Home = () => {
   <h2 className="mb-4 tracking-tighter text-xl text-zinc-400 border-b border-zinc-500 pb-2">projects</h2>
     <Link href="#" className=" hover:border hover:bg-zinc-800 p-2 rounded">
         <div className="flex justify-center gap-4 items-center">
-            <div className="flex justify-start items-start gap-4 items-center basis-full"><p className="text-base text-zinc-200 flex flex-col items-start flex-2">kick<span className="border border-slate-700 text-xs rounded p-1">ongoing</span></p><small className="text-zinc-400 text-xs flex flex-col items-start flex-5">react + nodejs <span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">an ecommerce web app where you can buy sneaker</span></small></div>  <p className="text-zinc-200 text-xs">2023</p>
+            <div className="flex justify-start items-start gap-4 items-center basis-full"><p className="text-base text-zinc-200 flex flex-col items-start flex-2">kick<span className="border border-zinc-400 text-ds rounded px-1">ongoing</span></p><small className="text-zinc-400 text-ds flex flex-col items-start flex-5">react + nodejs <span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">an ecommerce web app where you can buy sneaker</span></small></div>  <p className="text-zinc-200 text-ds">2023</p>
             </div>
     </Link>
     <Link href="#" className="my-8 hover:border hover:bg-zinc-800 p-2 rounded">
-        <div className="flex justify-center gap-4 items-center"><div className="flex justify-center gap-4 items-center basis-full"><p className="flex-2 text-zinc-300 text-base">budget tracker</p><small className="text-zinc-400 text-xs flex flex-col items-start flex-5">reactjs + context API<span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">this app helps you track your expenses</span></small></div> <p className="text-zinc-200 text-xs">2022</p></div>
+        <div className="flex justify-center gap-4 items-center"><div className="flex justify-center gap-4 items-center basis-full"><p className="flex-2 text-zinc-300 text-base">budget tracker</p><small className="text-zinc-400 text-ds flex flex-col items-start flex-5">reactjs + context API<span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">this app helps you track your expenses</span></small></div> <p className="text-zinc-200 text-ds">2022</p></div>
     </Link>
     <Link href="#" className=" hover:border hover:bg-zinc-800 p-2 rounded">
-        <div className="flex justify-center gap-4 items-center"><div className="flex justify-center gap-4 items-center basis-full"><p className="text-zinc-300 text-base flex-2">todo</p><small className="text-zinc-400 text-xs flex flex-col items-start flex-5">reactjs <span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">a web app that helps you iterate what you want to do in your daily activities</span></small></div> <p className="text-zinc-200 text-xs">2022</p></div>
+        <div className="flex justify-center gap-4 items-center"><div className="flex justify-center gap-4 items-center basis-full"><p className="text-zinc-300 text-base flex-2">todo</p><small className="text-zinc-400 text-ds flex flex-col items-start flex-5">reactjs <span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">a web app that helps you iterate what you want to do in your daily activities</span></small></div> <p className="text-zinc-200 text-ds">2022</p></div>
     </Link>
     </div>
  </main>

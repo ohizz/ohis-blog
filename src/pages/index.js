@@ -1,11 +1,12 @@
 import {Home} from './../../components/Home'
-
+import {Footer } from "./../../components/Footer"
 
 const Index = () => { 
     return (
-      <div className='bg-gradient-to-t from-slate-100/50 from-50% to-slate-100 to-50%'>
-        <div className='max-w-5xl mx-2 md:mx-auto min-h-screen'>
+      <div className='bg-zinc-900 text-slate-200'>
+        <div className='max-w-3xl mx-2 py-10 md:mx-auto min-h-screen'>
         <Home/>
+        <Footer/>
         </div>
       </div>
     )

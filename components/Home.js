@@ -71,7 +71,7 @@ export const Home = () => {
               <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick <span className="border border-zinc-600 text-ds rounded px-1">inprog</span></p>
               <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
                 <div className="flex gap-1 items-center">
-                <small>react + nodejs</small> 
+                <small>reactjs + nodejs</small> 
                 </div>
                 <p className="text-xs text-zinc-200">an ecommerce web app where you can buy sneaker</p>
                 </div>

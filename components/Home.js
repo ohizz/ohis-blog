@@ -39,7 +39,7 @@ export const Home = () => {
           <h3
             key={index}
             className="
-              text-zinc-500 mt-2 mr-4
+              text-zinc-500 my-10 mr-4
             "
             // style={{
             //   margin: '1rem 1rem 0',
@@ -48,7 +48,7 @@ export const Home = () => {
           >{item}</h3>
         ))}
       </Ticker>
-<div className="my-10 flex flex-col flex-wrap">
+<div className="mb-10 flex flex-col flex-wrap">
   <h2 className="mb-4 tracking-tighter text-md text-zinc-400 border-b border-zinc-500 pb-2">projects</h2>
  <div className="flex flex-col gap-4">
         <div className="flex justify-center gap-4 items-center">

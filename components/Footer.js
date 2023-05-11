@@ -15,9 +15,9 @@ export const Footer = () => {
   <footer className=" mx-4 md:mx-16 font-head">
     <div className="flex justify-start items-center">
     <ul className="mb-4 flex text-xs gap-2 tracking-tight">
-   <Link href="https://twitter.com/oissamuel" className="border-2 border-zinc-700 py-1 px-2 rounded-full">twitter</Link>
-    <Link href="https://github.com/ohizz" className="border-2 border-zinc-700 py-1 px-2 rounded-full">github</Link>
-    <Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">email</Link>
+   <Link href="https://twitter.com/oissamuel" className="hover:border-slate-100  border-2 border-zinc-700 py-1 px-2 rounded-full">twitter</Link>
+    <Link href="https://github.com/ohizz" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">github</Link>
+    <Link href="#" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">email</Link>
    </ul>
     </div>
    <p className="text-ds"> © {year} Ohis Samuel. All right reserved.</p>

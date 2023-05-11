@@ -7,7 +7,7 @@ import React from 'react';
 
 export const Home = () => {
   const [isPlaying, setIsPlaying] = React.useState(true)
-  const skills = ['rectjs', 'tailwindcss', 'nodejs', 'nextjs', 'javascript'];
+  const skills = ['reactjs', 'nextjs', 'tailwindcss', 'javascript', 'nodejs'];
 
   return(
  <>
@@ -36,16 +36,16 @@ export const Home = () => {
 
 <Ticker duration={5} onMouseEnter={() => setIsPlaying(false)} onMouseLeave={() => setIsPlaying(true)} isPlaying={isPlaying}>
         {skills.map((item, index) => (
-          <div
+          <h3
             key={index}
-            style={{
-              position: 'relative',
-              content: 'ohis',
-              width: '50px',
-              height: '70px',
-              margin: '5px',
-            }}
-          />
+            className="
+              text-zinc-500 mt-2 mr-4
+            "
+            // style={{
+            //   margin: '1rem 1rem 0',
+            //   color: 'zinc'
+            // }}
+          >{item}</h3>
         ))}
       </Ticker>
 <div className="my-10 flex flex-col flex-wrap">
@@ -53,12 +53,12 @@ export const Home = () => {
  <div className="flex flex-col gap-4">
         <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
-              <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick <span className="border border-zinc-600 text-ds rounded px-2 py-1 ">ongoing</span> </p>
+              <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick <span className="border border-zinc-600 text-ds rounded p-1 ">ongoing</span> </p>
               <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
-                <div className="flex gap-3 items-center flex-wrap">
-                <small>react + nodejs</small> <small>2023</small> 
+                <div className="flex gap-1 items-center flex-wrap">
+                <small>react + nodejs</small>
                 </div>
-                <p>an ecommerce web app where you can buy sneaker</p>
+                <p className="text-zinc-200">an ecommerce web app where you can buy sneaker</p>
                 </div>
                 </div>  
                 
@@ -69,10 +69,10 @@ export const Home = () => {
             <div className="flex justify-start items-start gap-4 items-center basis-full">
               <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">budget tracker</p>
               <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
-                <div className="flex gap-3 items-center">
-                <small>react.js + context API</small> <small>2022</small> 
+                <div className="flex gap-1 items-center">
+                <small>react.js + context API</small>
                 </div>
-                <p>track expenses</p>
+                <p className="text-zinc-200">track expenses</p>
                 </div>
                 </div>  
               <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">
@@ -82,10 +82,10 @@ export const Home = () => {
             <div className="flex justify-start items-start gap-4 items-center basis-full">
               <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">todo</p>
               <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
-                <div className="flex gap-3 items-center">
-                <small>react.js</small> <small>2022</small> 
+                <div className="flex gap-1 items-center">
+                <small>react.js</small>
                 </div>
-                <p>itemized all your work</p>
+                <p className="text-zinc-200">itemized all your work</p>
                 </div>
                 </div>  
               <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">

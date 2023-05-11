@@ -63,7 +63,7 @@ export const Home = () => {
                 </div>  
                 
               <div className="text-zinc-200 text-ds flex flex-wrap md:flex-nowrap gap-2">
-                <Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">github</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
+                <Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">code</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
             </div>
     <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
@@ -76,7 +76,7 @@ export const Home = () => {
                 </div>
                 </div>  
               <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">
-                <Link className="border-2 border-zinc-700 py-1 px-2 rounded-full" href="#">github</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
+                <Link className="border-2 border-zinc-700 py-1 px-2 rounded-full" href="#">code</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
             </div>
     <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
@@ -89,7 +89,7 @@ export const Home = () => {
                 </div>
                 </div>  
               <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">
-                <Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">github</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
+                <Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">code</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
             </div>
     </div>
     </div>

@@ -31,24 +31,48 @@ export const Home = () => {
 </div>
 <div className="my-10 flex flex-col flex-wrap">
   <h2 className="mb-4 tracking-tighter text-md text-zinc-400 border-b border-zinc-500 pb-2">projects</h2>
-  {/* <motion.li  className="card list-none" whileHover={{
-  scale: 0.7,
-  transition: {
-    duration: .1
-  }
-}}> */}
- <Link href="#" className="">
+ <div className="flex flex-col gap-4">
         <div className="flex justify-center gap-4 items-center">
-            <div className="flex justify-start items-start gap-4 items-center basis-full"><p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick<span className="border border-zinc-400 text-ds rounded px-1">ongoing</span></p><small className="text-zinc-400 text-ds flex flex-col items-start flex-5">react + nodejs <span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">an ecommerce web app where you can buy sneaker</span></small></div>  <p className="text-zinc-200 text-ds">2023</p>
+            <div className="flex justify-start items-start gap-4 items-center basis-full">
+              <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick</p>
+              <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
+                <div className="flex gap-3 items-center">
+                <small>react + nodejs</small> <small>2023</small> <span className="border border-zinc-600 text-ds rounded px-2 py-1 ml-3 ">ongoing</span> 
+                </div>
+                <p>an ecommerce web app where you can buy sneaker</p>
+                </div>
+                </div>  
+                
+              <div className="text-zinc-200 text-ds flex gap-2">
+                <Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">github</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
             </div>
-    </Link>
-{/* </motion.li> */}
-    <Link href="#" className="my-8 hover:border hover:bg-zinc-800 p-2 rounded">
-        <div className="flex justify-center gap-4 items-center"><div className="flex justify-center gap-4 items-center basis-full"><p className="flex-2 text-zinc-300 text-xs">budget tracker</p><small className="text-zinc-400 text-ds flex flex-col items-start flex-5">reactjs + context API<span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">this app helps you track your expenses</span></small></div> <p className="text-zinc-200 text-ds">2022</p></div>
-    </Link>
-    <Link href="#" className=" hover:border hover:bg-zinc-800 p-2 rounded">
-        <div className="flex justify-center gap-4 items-center"><div className="flex justify-center gap-4 items-center basis-full"><p className="text-zinc-300 text-xs flex-2">todo</p><small className="text-zinc-400 text-ds flex flex-col items-start flex-5">reactjs <span className="text-zinc-300 tracking-tight md:tracking-tight text-xs">a web app that helps you iterate what you want to do in your daily activities</span></small></div> <p className="text-zinc-200 text-ds">2022</p></div>
-    </Link>
+    <div className="flex justify-center gap-4 items-center">
+            <div className="flex justify-start items-start gap-4 items-center basis-full">
+              <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">budget tracker</p>
+              <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
+                <div className="flex gap-3 items-center">
+                <small>react.js + context API</small> <small>2022</small> 
+                </div>
+                <p>track expenses</p>
+                </div>
+                </div>  
+              <div className="text-zinc-200 text-ds flex gap-2">
+                <Link className="border-2 border-zinc-700 py-1 px-2 rounded-full" href="#">github</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
+            </div>
+    <div className="flex justify-center gap-4 items-center">
+            <div className="flex justify-start items-start gap-4 items-center basis-full">
+              <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">todo</p>
+              <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
+                <div className="flex gap-3 items-center">
+                <small>react.js</small> <small>2022</small> 
+                </div>
+                <p>itemized all your work</p>
+                </div>
+                </div>  
+              <div className="text-zinc-200 text-ds flex gap-2">
+                <Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">github</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
+            </div>
+    </div>
     </div>
  </main>
   </>

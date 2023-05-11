@@ -24,6 +24,7 @@ module.exports = {
         hand:['Red Hat Mono', defaultTheme.fontFamily.serif],
         eye:['Inter Tiger', defaultTheme.fontFamily.serif],
         ear:['Sora', defaultTheme.fontFamily.sans],
+        main:['Kanit', defaultTheme.fontFamily.sans],
        },
        fontSize: {
         ds: '0.6rem',}

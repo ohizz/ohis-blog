@@ -58,7 +58,7 @@ export const Home = () => {
                 <div className="flex gap-1 items-center flex-wrap">
                 <small>react + nodejs</small>
                 </div>
-                <p className="text-zinc-200">an ecommerce web app where you can buy sneaker</p>
+                <p className="text-xs text-zinc-200">an ecommerce web app where you can buy sneaker</p>
                 </div>
                 </div>  
                 
@@ -72,7 +72,7 @@ export const Home = () => {
                 <div className="flex gap-1 items-center">
                 <small>react.js + context API</small>
                 </div>
-                <p className="text-zinc-200">track expenses</p>
+                <p className="text-zinc-200 text-sm">track expenses</p>
                 </div>
                 </div>  
               <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">
@@ -85,7 +85,7 @@ export const Home = () => {
                 <div className="flex gap-1 items-center">
                 <small>react.js</small>
                 </div>
-                <p className="text-zinc-200">itemized all your work</p>
+                <p className="text-zinc-200 text-sm">itemized all your work</p>
                 </div>
                 </div>  
               <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">

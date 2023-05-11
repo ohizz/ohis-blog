@@ -9,7 +9,7 @@ import axios from 'axios';
 
 export const Home = () => {
   const [isPlaying, setIsPlaying] = React.useState(true)
-  const skills = ['reactjs', 'nextjs', 'tailwindcss', 'javascript', 'nodejs', 'monogdb'];
+  const skills = ['reactjs', 'nextjs', 'typescript', 'tailwindcss', 'javascript', 'nodejs', 'monogdb'];
   const address = `http://localhost:3000/api/hearing`;
    const fetcher = url => axios.get(url).then(res => res.data)
    const { data, error } = useSWR(address, fetcher);
@@ -65,19 +65,19 @@ export const Home = () => {
 <div className="mb-10 flex flex-col flex-wrap">
   <h2 className="mb-4 tracking-tighter text-md text-zinc-400 border-b border-zinc-500 pb-2">projects</h2>
  <div className="flex flex-col gap-4">
-        <div className="flex justify-center gap-4 items-center">
+  
+ <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
-              <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick <span className="border border-zinc-600 text-ds rounded">inprog</span> </p>
+              <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick <span className="border border-zinc-600 text-ds rounded">inprog</span></p>
               <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
-                <div className="flex gap-1 items-center flex-wrap">
-                <small>react + nodejs</small>
+                <div className="flex gap-1 items-center">
+                <small>react + nodejs</small> 
                 </div>
                 <p className="text-xs text-zinc-200">an ecommerce web app where you can buy sneaker</p>
                 </div>
-                </div>  
-                
-              <div className="text-zinc-200 text-ds flex flex-wrap md:flex-nowrap gap-2">
-                <Link href="#" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">code</Link><Link href="#" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
+                </div>
+                <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap">  
+                <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank" href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank" href="https://monitracker.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
             </div>
     <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
@@ -90,7 +90,7 @@ export const Home = () => {
                 </div>
                 </div>  
               <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">
-                <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" href="#">code</Link><Link href="#" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
+                <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank" href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank" href="https://monitracker.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
             </div>
     <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
@@ -103,7 +103,7 @@ export const Home = () => {
                 </div>
                 </div>  
               <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">
-                <Link href="#" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">code</Link><Link href="#" className="border-2 border-zinc-700 py-1 px-2 rounded-full hover:border-slate-100">live</Link></div>
+                <Link target="_blank" href="https://github.com/ohizz/todo" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">code</Link><Link target="_blank" href="https://webapptodo.vercel.app/" className="border-2 border-zinc-700 py-1 px-2 rounded-full hover:border-slate-100">live</Link></div>
             </div>
     </div>
     </div>

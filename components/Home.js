@@ -77,7 +77,7 @@ export const Home = () => {
                 </div>
                 </div>
                 <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap">  
-                <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank" href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank" href="https://monitracker.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
+                <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank" href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank" href="https://ecommerce-lime-chi.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
             </div>
     <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">

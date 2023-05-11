@@ -53,7 +53,7 @@ export const Home = () => {
  <div className="flex flex-col gap-4">
         <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
-              <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick <span className="border border-zinc-600 text-ds rounded p-1 ">ongoing</span> </p>
+              <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick <span className="border border-zinc-600 text-ds rounded p-1 ">ongoing</span> </p>
               <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
                 <div className="flex gap-1 items-center flex-wrap">
                 <small>react + nodejs</small>
@@ -67,7 +67,7 @@ export const Home = () => {
             </div>
     <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
-              <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">budget tracker</p>
+              <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">budget tracker</p>
               <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
                 <div className="flex gap-1 items-center">
                 <small>react.js + context API</small>
@@ -80,7 +80,7 @@ export const Home = () => {
             </div>
     <div className="flex justify-center gap-4 items-center">
             <div className="flex justify-start items-start gap-4 items-center basis-full">
-              <p className="text-xs text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">todo</p>
+              <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">todo</p>
               <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
                 <div className="flex gap-1 items-center">
                 <small>react.js</small>

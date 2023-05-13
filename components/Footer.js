@@ -13,6 +13,7 @@ export const Footer = () => {
 
  return(
   <footer className=" mx-4 md:mx-16 font-head">
+    <h2 className="mb-4 tracking-tighter text-md text-zinc-200 border-b border-zinc-500 pb-2">connect</h2>
     <div className="flex justify-start items-center">
     <ul className="mb-4 flex text-xs gap-2 tracking-tight">
    <Link href="https://twitter.com/oissamuel" target="_blank"  className="hover:border-slate-100  border-2 border-zinc-700 py-1 px-2 rounded-full">twitter</Link>

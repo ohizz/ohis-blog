@@ -5,9 +5,9 @@ import { motion } from "framer-motion"
 const Index = () => { 
 
   const variants = {
-    hidden: {y:50, opacity:0,},
+    hidden: { opacity:0,},
     show: {
-      y:0,
+      y:30,
       opacity:1,
       transition: {
         type: 'spring',
@@ -20,8 +20,9 @@ const Index = () => {
       <div className='bg-zinc-900 text-slate-200'>
         <div className='max-w-3xl mx-2 py-10 md:mx-auto min-h-screen'>
         <motion.div
-      animate={{y:30}}
-      transition={{ease: "easeIn", duration:0.7}}
+      variants={variants}
+      initial='hidden'
+      animate='show'
     >
       <Home/>
       <Footer/>

@@ -62,7 +62,7 @@ export const Home = () => {
           >{item}</h3>
         ))}
       </Ticker>
-<div className="mb-10 flex flex-col flex-wrap">
+<div className="mb-20 flex flex-col flex-wrap">
   <h2 className="mb-4 tracking-tighter text-md text-zinc-200 border-b border-zinc-500 pb-2">projects</h2>
  <div className="flex flex-col gap-4">
   

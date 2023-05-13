@@ -4,19 +4,12 @@ import { motion } from "framer-motion"
 
 const Index = () => { 
     return (
-      <motion.div initial="hidden" animate="visible" variants={{
-        hidden: {
-          scale: .9,
-          opacity: 0
-        },
-        visible: {
-          scale: 1,
-          opacity: 1,
-          transition: {
-            delay: .4
-          }
-        },
-      }}>
+      <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 3 }}
+    >
       <div className='bg-zinc-900 text-slate-200'>
         <div className='max-w-3xl mx-2 py-10 md:mx-auto min-h-screen'>
         <Home/>

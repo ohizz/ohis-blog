@@ -24,14 +24,14 @@ export const Home = () => {
 <div>
   <motion.div initial="hidden" animate="visible" variants={{
   hidden: {
-    scale: .8,
+    scale: .5,
     opacity: 0
   },
   visible: {
     scale: 1,
     opacity: 1,
     transition: {
-      delay: .1
+      delay: .4
     }
   },
 }}>
@@ -43,9 +43,9 @@ export const Home = () => {
 </svg> 
 <p className="text-green-500 text-xs mb-4">{data.title} {' '} {data.artist}</p>
   </div>}
-  <p className="text-sm leading-6 md:text-md tracking-tight md:leading-7">Hi my name is ohis i am a frontend developer that likes to work more on convience, desgin and interactivity, i always make sure that my works are userfriendly </p>
+  <p className="text-sm leading-6 md:text-md tracking-tight md:leading-7">Hi, my name is ohis, i am a frontend developer from Lagos, Nigeria that likes to work more on user convenience, and interactivity design, i always make sure that my works are userfriendly </p>
 
-<p className="text-sm leading-6 md:text-md md:leading-7 mt-4">i try to stay up-to-date with the current trends and technologies in the frontend development field.</p>
+<p className="text-sm leading-6 md:text-md md:leading-7 mt-4">when i am not writing code, i watch tv shows or read newletters, blog post or articles online.</p>
 </div>
 
 <Ticker duration={5} onMouseEnter={() => setIsPlaying(false)} onMouseLeave={() => setIsPlaying(true)} isPlaying={isPlaying}>

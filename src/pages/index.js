@@ -5,10 +5,10 @@ import { motion } from "framer-motion"
 const Index = () => { 
 
   const variants = {
-    hidden: {y:50,},
+    hidden: {y:700, opacity:0},
     show: {
       y:0,
-      
+      opacity:1,
       transition: {
         type: 'spring',
         duration: 1,

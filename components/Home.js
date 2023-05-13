@@ -45,7 +45,7 @@ export const Home = () => {
   </div>}
   <p className="text-sm leading-6 md:text-md tracking-tight md:leading-7">Hi, my name is ohis, i am a frontend developer from Lagos, Nigeria that likes to work more on user convenience, and interactivity design, i always make sure that my works are userfriendly </p>
 
-<p className="text-sm leading-6 md:text-md md:leading-7 mt-4">when i am not writing code, i watch tv shows or read newletters, blog post or articles online.</p>
+<p className="text-sm leading-6 md:text-md md:leading-7 mt-4">when i am not writing code, i watch tv shows or read blog post or news articles online.</p>
 </div>
 
 <Ticker duration={5} onMouseEnter={() => setIsPlaying(false)} onMouseLeave={() => setIsPlaying(true)} isPlaying={isPlaying}>

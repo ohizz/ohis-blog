@@ -53,7 +53,7 @@ export const Home = () => {
           <h3
             key={index}
             className="
-              text-zinc-500
+              text-zinc-500 mr-4
             "
             // style={{
             //   margin: '1rem 1rem 0',

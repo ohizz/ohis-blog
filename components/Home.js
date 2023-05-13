@@ -43,7 +43,7 @@ export const Home = () => {
 </svg> 
 <p className="text-green-500 text-xs mb-4">{data.title} {' '} {data.artist}</p>
   </div>}
-  <p className="text-sm leading-6 md:text-md tracking-tight md:leading-7">Hi, my name is ohis, i am a frontend developer from Lagos, Nigeria that likes to work more on user convenience, and interactivity design, i always make sure that my works are userfriendly </p>
+  <p className="text-sm leading-6 md:text-md tracking-tight md:leading-7">Hi, my name is ohis, i am a frontend developer from Lagos, Nigeria that likes to work more on user convenience, and polished design, i always make sure that my works are userfriendly </p>
 
 <p className="text-sm leading-6 md:text-md md:leading-7 mt-4">when i am not writing code, i watch tv shows or read blog post or news articles online.</p>
 </div>

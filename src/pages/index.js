@@ -25,9 +25,8 @@ const Index = () => {
       animate='show'
     >
       <Home/>
+      <Footer/>
     </motion.div>
-        
-        <Footer/>
         </div>
       </div>
       

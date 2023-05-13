@@ -20,9 +20,8 @@ const Index = () => {
       <div className='bg-zinc-900 text-slate-200'>
         <div className='max-w-3xl mx-2 py-10 md:mx-auto min-h-screen'>
         <motion.div
-      variants={variants}
-      initial='hidden'
-      animate='show'
+      animate={{y:30}}
+      transition={{ease: "easeIn", duration:0.7}}
     >
       <Home/>
       <Footer/>

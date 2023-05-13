@@ -12,7 +12,7 @@ export const Footer = () => {
     let year = new Date().getFullYear();
 
  return(
-  <footer className=" mx-4 md:mx-16 font-head">
+  <footer className="mb-8 mx-4 md:mx-16 font-head">
     <h2 className="mb-4 tracking-tight text-md text-zinc-200 border-b border-zinc-500 pb-2">connect</h2>
     <div className="flex justify-start items-center">
     <ul className="mb-4 flex text-xs gap-2 tracking-tight">

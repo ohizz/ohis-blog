@@ -7,7 +7,7 @@ const Index = () => {
   const variants = {
     hidden: {y:50, opacity:0,},
     show: {
-      y:0,
+      y:30,
       opacity:1,
       transition: {
         type: 'spring',

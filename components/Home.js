@@ -45,7 +45,7 @@ export const Home = () => {
   </div>}
   <p className="text-sm leading-6 md:text-md tracking-tight md:leading-7">Hi, my name is ohis, i am a frontend developer from Lagos, Nigeria that likes to work more on user convenience, and polished design, i always make sure that my works are userfriendly </p>
 
-<p className="text-sm leading-6 md:text-md md:leading-7 mt-4">when i am not writing code, i watch tv shows or read blog post or news articles online.</p>
+<p className="text-sm leading-6 md:text-md md:leading-7 mt-4">when i am not writing code, i watch tv shows or read blog post or news articles.</p>
 </div>
 
 <Ticker duration={5} onMouseEnter={() => setIsPlaying(false)} onMouseLeave={() => setIsPlaying(true)} isPlaying={isPlaying}>
@@ -63,7 +63,7 @@ export const Home = () => {
         ))}
       </Ticker>
 <div className="mb-20 flex flex-col flex-wrap">
-  <h2 className="mb-4 tracking-tighter text-md text-zinc-200 border-b border-zinc-500 pb-2">projects</h2>
+  <h2 className="mb-4 tracking-tight text-md text-zinc-200 border-b border-zinc-500 pb-2">projects</h2>
  <div className="flex flex-col gap-4">
   
  <div className="flex justify-center gap-4 items-center">

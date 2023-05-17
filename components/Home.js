@@ -1,5 +1,3 @@
-import  {Footer} from "./Footer"
-import { Header } from "./Header"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import Ticker from 'framer-motion-ticker';
@@ -35,7 +33,7 @@ export const Home = () => {
     }
   },
 }}>
-  <h1 className="text-xl md:mt-10 font-semibold tracking-tight leading-1 mb-4">OS.</h1>
+  <h1 className="font-head text-xl md:mt-10 font-semibold tracking-tight leading-1 mb-4">OS.</h1>
   </motion.div>
   {data &&  <div className="flex gap-2">
     <svg className="text-green-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16">
@@ -43,9 +41,9 @@ export const Home = () => {
 </svg> 
 <p className="text-green-500 text-xs mb-4">{data.title} {' '} {data.artist}</p>
   </div>}
-  <p className="text-sm leading-6 md:text-md tracking-tight md:leading-7">Hi, my name is ohis, i am a frontend developer from Lagos, Nigeria that likes to work more on user convenience, and polished design, i always make sure that my works are userfriendly </p>
+  <p className="text-sm tracking-tight md:leading-7">Hi, my name is ohis, i am a frontend developer from Lagos, Nigeria that likes to work more on user convenience, and polished designs, i always make sure that my works are userfriendly </p>
 
-<p className="text-sm leading-6 md:text-md md:leading-7 mt-4 mb-10">when i am not writing code, i watch tv shows or read blog post or news articles.</p>
+<p className="text-sm leading-6 md:leading-7 mt-4 mb-10">when i am not writing code, i watch tv shows o read articles.</p>
 </div>
 
 <Ticker duration={5} onMouseEnter={() => setIsPlaying(false)} onMouseLeave={() => setIsPlaying(true)} isPlaying={isPlaying}>
@@ -53,7 +51,7 @@ export const Home = () => {
           <h3
             key={index}
             className="
-              text-zinc-500 mr-4
+              text-zinc-500 mr-4 font-head text-md
             "
             // style={{
             //   margin: '1rem 1rem 0',
@@ -62,51 +60,49 @@ export const Home = () => {
           >{item}</h3>
         ))}
       </Ticker>
-<div className="mb-16 mt-10 flex flex-col flex-wrap">
-  <h2 className="mb-4 tracking-tight text-md text-zinc-200 border-b border-zinc-500 pb-2">projects</h2>
- <div className="flex flex-col gap-4">
+<div className="mb-10 mt-10 flex flex-col flex-wrap">
+  <h2 className="font-head mb-4 tracking-tight text-xl  text-zinc-200 border-b border-zinc-500 pb-2">projects</h2>
+
+  <div className="flex flex-col gap-8">
+  <div className="flex gap-2 flex-col">
+   <div className="flex gap-2 items-center">
+   <p className="text-md text-zinc-200">kick</p> <small className="text-ds text-zinc-500">reactjs + nodejs</small>  <span className="text-ds text-zinc-500">2023</span> <span className="border border-zinc-600 text-ds rounded px-1">inprog</span>
+    </div>
+                
+    <p className="text-xs leading-snug font-thin text-zinc-200">an ecommerce web app where you can buy sneaker</p>
+                
+     <div className="text-zinc-500 text-ds flex gap-x-2 ">  
+      <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank" href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank" href="https://ecommerce-lime-chi.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
+      </div>
+      <div className="flex flex-col gap-2">
   
- <div className="flex justify-center gap-4 items-center">
-            <div className="flex justify-start items-start gap-4 items-center basis-full">
-              <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">kick <span className="border border-zinc-600 text-ds rounded px-1">inprog</span></p>
-              <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
-                <div className="flex gap-1 items-center">
-                <small>reactjs + nodejs</small> 
-                </div>
-                <p className="text-xs text-zinc-200">an ecommerce web app where you can buy sneaker</p>
-                </div>
-                </div>
-                <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap">  
-                <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank" href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank" href="https://ecommerce-lime-chi.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
-            </div>
-    <div className="flex justify-center gap-4 items-center">
-            <div className="flex justify-start items-start gap-4 items-center basis-full">
-              <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">budget tracker</p>
-              <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
-                <div className="flex gap-1 items-center">
-                <small>react.js + context API</small>
-                </div>
-                <p className="text-zinc-200 text-xs">track expenses</p>
-                </div>
-                </div>  
-              <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">
-                <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank" href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank" href="https://monitracker.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div>
-            </div>
-    <div className="flex justify-center gap-4 items-center">
-            <div className="flex justify-start items-start gap-4 items-center basis-full">
-              <p className="text-sm text-zinc-200 flex flex-wrap gap-1 flex-col items-start flex-2">todo</p>
-              <div className="text-zinc-400 text-ds flex flex-col items-start flex-5 gap-2">
-                <div className="flex gap-1 items-center">
-                <small>react.js</small>
-                </div>
-                <p className="text-zinc-200 text-xs">itemized all your work</p>
-                </div>
-                </div>  
-              <div className="text-zinc-200 text-ds flex gap-2 flex-wrap md:flex-nowrap ">
-                <Link target="_blank" href="https://github.com/ohizz/todo" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">code</Link><Link target="_blank" href="https://webapptodo.vercel.app/" className="border-2 border-zinc-700 py-1 px-2 rounded-full hover:border-slate-100">live</Link></div>
-            </div>
+   <div className="flex gap-1 md:gap-2 items-center">
+   <p className="text-md text-zinc-200">budget tracker</p>   <small className="text-ds text-zinc-500">reactjs + context API</small>  <span className="text-ds text-zinc-500">2022</span> 
     </div>
+                
+    <p className="text-xs leading-snug font-thin text-zinc-200">track expenses</p>
+    
+                
+     <div className="text-zinc-500 text-ds flex gap-x-2 ">  
+      <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank"href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank"  href="https://monitracker.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
+      </div>
+      <div className="flex gap-2 flex-col">
+  
+  
+  <div className="flex gap-2 items-center">
+  <p className="text-md text-zinc-200">todo</p>   <small className="text-ds text-zinc-500">react.js</small>  <span className="text-ds text-zinc-500">2022</span>
+   </div>
+               
+   <p className="text-xs leading-snug font-thin text-zinc-200">itemized all your work</p>
+   
+               
+    <div className="text-zinc-500 text-ds flex gap-x-2 ">  
+     <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank"  href="https://github.com/ohizz/todo">code</Link><Link target="_blank" href="https://webapptodo.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
+     </div>
+     
+  </div>
     </div>
+    
  </main>
   </>
  )

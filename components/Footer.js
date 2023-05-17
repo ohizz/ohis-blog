@@ -13,15 +13,16 @@ export const Footer = () => {
 
  return(
   <footer className="mb-8 mx-4 md:mx-16 font-head">
-    <h2 className="mb-4 tracking-tight text-md text-zinc-200 border-b border-zinc-500 pb-2">connect</h2>
-    <div className="flex justify-start items-center">
-    <ul className="mb-4 flex text-xs gap-2 tracking-tight">
-   <Link href="https://twitter.com/oissamuel" target="_blank"  className="hover:border-slate-100  border-2 border-zinc-700 py-1 px-2 rounded-full">twitter</Link>
-    <Link href="https://github.com/ohizz" target="_blank"  className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">github</Link>
-    <Link href="mailto:jtsamuel3084@gmail.com" target="_blank" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">email</Link>
+    <h2 className="font-head mb-4 tracking-tight text-xl text-zinc-200 border-b border-zinc-500 pb-2">connect</h2>
+    <div className="flex">
+    <ul className="mb-4 flex flex-col text-xs gap-2 tracking-tight">
+   <Link href="https://twitter.com/oissamuel" target="_blank"  className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 w-fit rounded-full">twitter</Link>
+    <Link href="https://github.com/ohizz" target="_blank"  className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 w-fit rounded-full">github</Link>
+    <Link href="mailto:jtsamuel3084@gmail.com" target="_blank" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 w-fit rounded-full">email</Link>
    </ul>
     </div>
-   <p className="text-ds"> © {year} Ohis Samuel. All right reserved.</p>
+   <p className="text-ds mb-2"> © {year} Ohis Samuel. All right reserved.</p>
+   <p className="text-ds">inspired by aarve</p>
   
   </footer>
 

@@ -25,7 +25,7 @@
   }
   70% {
     transform: scale(1);
-    box-shadow: 2px 2px 0 0 rgba(30, 229, 30, 0);
+    box-shadow: 2px 2px 2px 0 rgba(30, 229, 30, 0);
   }
   100% {
     transform: scale(0.8);

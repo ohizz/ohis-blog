@@ -71,7 +71,7 @@ export const Home = () => {
                 
     <p className="text-xs leading-snug font-thin text-zinc-200">an ecommerce web app where you can buy sneaker</p>
                 
-     <div className="text-zinc-500 text-ds flex gap-x-2 ">  
+     <div className="text-zinc-200 text-ds flex gap-x-2 ">  
       <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank" href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank" href="https://ecommerce-lime-chi.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
       </div>
       <div className="flex flex-col gap-2">
@@ -83,7 +83,7 @@ export const Home = () => {
     <p className="text-xs leading-snug font-thin text-zinc-200">track expenses</p>
     
                 
-     <div className="text-zinc-500 text-ds flex gap-x-2 ">  
+     <div className="text-zinc-200 text-ds flex gap-x-2 ">  
       <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank"href="https://github.com/ohizz/monitracker">code</Link><Link target="_blank"  href="https://monitracker.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
       </div>
       <div className="flex gap-2 flex-col">
@@ -96,7 +96,7 @@ export const Home = () => {
    <p className="text-xs leading-snug font-thin text-zinc-200">itemized all your work</p>
    
                
-    <div className="text-zinc-500 text-ds flex gap-x-2 ">  
+    <div className="text-zinc-200 text-ds flex gap-x-2 ">  
      <Link className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full" target="_blank"  href="https://github.com/ohizz/todo">code</Link><Link target="_blank" href="https://webapptodo.vercel.app/" className="hover:border-slate-100 border-2 border-zinc-700 py-1 px-2 rounded-full">live</Link></div> 
      </div>
      

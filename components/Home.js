@@ -66,7 +66,7 @@ export const Home = () => {
   <div className="flex flex-col gap-2">
   <div className="flex gap-2 flex-col">
    <div className="flex gap-2 items-center">
-   <p className="text-md text-zinc-200">kick</p>   <span className="text-ds text-zinc-500">2023</span> <span className="border border-zinc-600 text-ds rounded px-1">inprog</span>
+   <p className="text-md text-zinc-200">kick</p>   <span className="text-ds text-zinc-500">2023</span> <span className="flex items-center gap-2 border border-zinc-600  text-ds rounded h-5 px-1"><div className="bg-green-500 w-2 h-2 rounded-full"></div>inprog</span>
     </div>
     <small className="text-ds text-zinc-500">reactjs + nodejs</small>
     <p className="text-xs leading-snug font-thin text-zinc-200">an ecommerce web app where you can buy sneaker</p>

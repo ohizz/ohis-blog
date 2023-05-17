@@ -22,7 +22,7 @@ export const Footer = () => {
    </ul>
     </div>
    <p className="text-ds mb-2"> © {year} Ohis Samuel. All right reserved.</p>
-   <p className="text-ds">inspired by aarve</p>
+   <p className="text-ds">inspired by Aarav Sareen</p>
   
   </footer>
 

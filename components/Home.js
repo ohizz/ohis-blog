@@ -64,13 +64,14 @@ export const Home = () => {
         ))}
       </Ticker>
 <div className="mb-10 mt-10 flex flex-col flex-wrap">
-  <h2 className="font-head mb-4 tracking-tight text-md  text-zinc-200 border-b border-zinc-500 pb-2">projects</h2>
+  <h2 className="font-head mb-4 tracking-tight text-md  text-zinc-500 border-b border-zinc-700 pb-2">projects</h2>
 
   <div className="flex flex-col gap-6">
   <div className="flex gap-2 flex-col">
    <div className="flex gap-2 items-center">
-   <p className="text-md tracking-tight text-zinc-200">kick</p>   <span className="text-ds text-zinc-500">2023</span> <span className="flex items-center gap-1 border border-zinc-600  text-ds rounded h-5 px-1"><div className=" animate bg-green-500 w-2 h-2 rounded-full"></div>inprog</span>
+   <p className="text-md tracking-tight text-zinc-200">kick</p>
    <small className="text-ds text-zinc-500">reactjs + nodejs</small>
+   <span className="text-ds text-zinc-500">2023</span> <span className="flex items-center gap-1 border border-zinc-600  text-ds rounded h-5 px-1"><div className=" animate bg-green-500 w-2 h-2 rounded-full"></div>inprog</span>
     </div>
     <p className="text-sm tracking-tight">an ecommerce web app where you can buy sneaker</p>
                 
@@ -80,8 +81,8 @@ export const Home = () => {
       <div className="flex flex-col gap-2">
   
    <div className="flex gap-1 md:gap-2 items-center">
-   <p className="text-md tracking-tight text-zinc-200">budget tracker</p>   <span className="text-ds text-zinc-500">2022</span> 
-   <small className="text-ds text-zinc-500">reactjs + context API</small>
+   <p className="text-md tracking-tight text-zinc-200">budget tracker</p>  <small className="text-ds text-zinc-500">reactjs + context API</small>  <span className="text-ds text-zinc-500">2022</span> 
+  
     </div>
     <p className="text-sm tracking-tight">this app helps you track expenses</p>
     
@@ -93,8 +94,9 @@ export const Home = () => {
   
   
   <div className="flex gap-2 items-center">
-  <p className="text-md tracking-tight text-zinc-200">todo</p>  <span className="text-ds text-zinc-500">2022</span>
+  <p className="text-md tracking-tight text-zinc-200">todo</p>  
   <small className="text-ds text-zinc-500">react.js</small>
+  <span className="text-ds text-zinc-500">2022</span>
    </div>
    <p className="text-sm tracking-tight">itemized all your work</p>
    

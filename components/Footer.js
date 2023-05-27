@@ -13,7 +13,7 @@ export const Footer = () => {
 
  return(
   <footer className="mb-8 mx-4 md:mx-16 font-foot">
-    <h2 className="font-head mb-4 tracking-tight text-md text-zinc-200 border-b border-zinc-500 pb-2">connect</h2>
+    <h2 className="font-head mb-4 tracking-tight text-md text-zinc-500 border-b border-zinc-700 pb-2">connect</h2>
     <div className="flex">
     <ul className="mb-4 flex flex-col text-md gap-x-1 tracking-tight">
       <li className="flex items-center gap-x-2">

@@ -20,7 +20,7 @@ module.exports = {
       fontFamily: {
         body: ['Montserrat', defaultTheme.fontFamily.sans],
         head:['Bruno Ace', defaultTheme.fontFamily.serif],
-        foot:['Hanken Grotesk', defaultTheme.fontFamily.serif],
+        foot:['Space Grotesk', defaultTheme.fontFamily.serif],
         hand:['Red Hat Mono', defaultTheme.fontFamily.serif],
         eye:['Inter Tiger', defaultTheme.fontFamily.serif],
         ear:['Sora', defaultTheme.fontFamily.sans],

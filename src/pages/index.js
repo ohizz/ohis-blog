@@ -18,15 +18,12 @@ const Index = () => {
   }
     return (
       <div className='bg-zinc-900 text-slate-200'>
-        <div className='max-w-3xl mx-2 py-10 md:mx-auto min-h-screen'>
-        <motion.div
-      variants={variants}
-      initial='hidden'
-      animate='show'
+        <div className='max-w-2xl mx-2 py-10 md:mx-auto min-h-screen'>
+        <div
     >
       <Home/>
       <Footer/>
-    </motion.div>
+    </div>
         </div>
       </div>
       
